@@ -1,0 +1,69 @@
+.product-container {
+    background: white;
+    border-radius: 5px;
+    margin: 70px 300px;
+}
+
+.product-container .title {
+    text-align: center;
+    padding: 10px;
+    border-bottom: #e0e0e0;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+
+.product-container .product-form {
+    padding: 0 20px;
+}
+
+.product-form .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-form .col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
+
+.product-form .col .error{
+    color: red;
+    font-size: 10px;
+}
+.product-form .col .input-error{
+    border: 2px solid red;
+
+}
+
+.product-form input {
+    height: 30px;
+    font-family: 'Saira', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #dcdddf;
+    padding-left: 10px;
+}
+
+.product-form .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.product-form .bottom button{
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+    border-style: none;
+}
+
+.product-form .bottom .reload{
+    background-color: #ecebe8;
+}
+
+.product-form .bottom .send{
+    background-color: #f8dc47;
+}

@@ -1,0 +1,18 @@
+nav {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo {
+    color: #1f1f5c;
+    font-size: 24px;
+    margin: 0;
+}

@@ -1,0 +1,128 @@
+.table-container {
+    background: white;
+    border-radius: 5px;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.table-container .message-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table .table-head {
+    background: #f0f1f3;
+    height: 50px;
+}
+
+.table .table-head th {
+    color: #1f1f5c;
+}
+
+.table .table-body {
+    height: 50px;
+}
+
+.table .table-body .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.table .table-body .dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 5px 0;
+    z-index: 10;
+    margin: 0;
+}
+
+.dropdown .dropdown-item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.table .left {
+    text-align: left;
+}
+
+.table .center {
+    text-align: center;
+}
+
+.table .logo {
+    height: 40px;
+}
+
+.pagination-container {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-container .page-button {
+    margin: 10px;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.head-container .search-input {
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #dcdddf;
+    font-family: 'Saira', sans-serif;
+}
+
+.head-container .add-button {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f8dc47;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+    border-style: none;
+}
+
+.skeleton {
+    background: linear-gradient(-90deg, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+.skeleton-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.skeleton-text {
+    width: 80%;
+    height: 20px;
+    margin: 5px 0;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
